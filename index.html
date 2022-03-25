@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="src/build/tailwind.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;800;900&display=swap" rel="stylesheet"> 
+</head>
+
+<body class="">
+  <!-- Mobile Navigaiton -->
+  <div id="mobile-menu" class="hidden absolute bg-[#edd6c7] w-full h-full z-30">
+    <button id="mobile-menu-button-close" class="float-right p-6 pt-8">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" fill="none" viewBox="0 0 24 24"
+            stroke="currentColor" stroke-width="1">
+            <path stroke-linecap="square" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+    </button>
+    <div class="text-center py-32">
+        <a href="About" class="block p-11 text-5xl hover:text-slate-100 ease-out duration-300">About</a>
+        <a href="Stay" class="block p-11 text-5xl hover:text-slate-100 ease-out duration-300">Stay</a>
+        <a href="Adventures" class="block p-11 text-5xl hover:text-slate-100 ease-out duration-300">Adventures</a>
+        <a href="Contact" class="block p-11 text-5xl hover:text-slate-100 ease-out duration-300">Contact</a>
+        <!-- Socials -->
+        <div class="flex justify-center">
+            <a href="https://www.instagram.com/beaverpointranch_/">
+                <svg viewBox="0 0 800 800" class="w-14 h-14 mt-6" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M150 400c0-119 0-166 42-208s88-42 208-42 166 0 208 42 42 89 42 208 0 166-42 208-88 42-208 42-166 0-208-42-42-89-42-208zm455 0c0-114 0-148-29-176-29-29-62-29-176-29s-148 0-176 29c-29 29-29 62-29 176s0 148 29 176c29 29 62 29 176 29s148 0 176-29c29-29 29-62 29-176zM400 272a128 128 0 1 1 0 256 128 128 0 0 1 0-256zm0 211c46 0 83-37 83-83s-37-83-83-83-83 37-83 83 37 83 83 83zm163-216c0 16-13 30-30 30-16 0-30-14-30-30 0-17 14-30 30-30 17 0 30 13 30 30z" />
+                </svg>
+            </a>
+        </div>
+    </div>
+</div>
+<!-- Nav -->
+<nav class="w-full bg-[#edd6c7] z-20 fixed">
+    <div class="max-w-auto p-5 mx-auto">
+        <div class="flex justify-between">
+            <!-- Logo -->
+            <!-- Primary Nav -->
+            <div class="space-x-1">
+                <a href="#">
+                    <img class="py-5 px-5 object-fill max-w-sm tablet:w-xs"
+                        src="src/assets/img/logo-words-hq.png" /></a>
+            </div>
+            <!-- Secondary Nav -->
+            <div class="hidden tablet:flex justify-evenly space-x-2">
+                <div class="py-5 px-5"><a href="About"
+                        class="text-2xl hover:text-slate-100 ease-out duration-200">About</a></div>
+                <div class="py-5 px-5"><a href="Stay"
+                        class="text-2xl hover:text-slate-100 ease-out duration-200">Stay</a></div>
+                <div class="py-5 px-5"><a href="Adventures"
+                        class="text-2xl hover:text-slate-100 ease-out duration-200t">Adventures</a>
+                </div>
+                <div class="py-5 px-5"><a href="Contact"
+                        class="text-2xl hover:text-slate-100 ease-out duration-200">Contact</a>
+                </div>
+                <div class="py-5 px-5">
+                    <a href="https://www.instagram.com/beaverpointranch_/">
+                        <svg viewBox="0 0 800 800" class="w-8 h-8" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M150 400c0-119 0-166 42-208s88-42 208-42 166 0 208 42 42 89 42 208 0 166-42 208-88 42-208 42-166 0-208-42-42-89-42-208zm455 0c0-114 0-148-29-176-29-29-62-29-176-29s-148 0-176 29c-29 29-29 62-29 176s0 148 29 176c29 29 62 29 176 29s148 0 176-29c29-29 29-62 29-176zM400 272a128 128 0 1 1 0 256 128 128 0 0 1 0-256zm0 211c46 0 83-37 83-83s-37-83-83-83-83 37-83 83 37 83 83 83zm163-216c0 16-13 30-30 30-16 0-30-14-30-30 0-17 14-30 30-30 17 0 30 13 30 30z" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="mr-2 py-6 px-5">
+                    <a href="#"
+                        class="rounded py-3 px-2 border-[#CB997E] border-2 text-[#CB997E] hover:bg-[#CB997E] hover:text-black ease-out duration-100">Book
+                        Now</a>
+                </div>
+            </div>
+            <!-- Mobile Nav Button -->
+            <div class="tablet:hidden flex items-center z-10">
+                <!-- Menu button -->
+                <button class="mobile-menu-button-open">
+                    <svg class="w-10 h-10" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor" stroke-width="1">
+                        <path stroke-linecap="square" stroke-linejoin="round" d="M4 6h16M4 12h16M4" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+  <!-- Content -->
+  <section id="content">
+    <!-- Section 1 -->
+    <div class="bg-cover h-full">
+      <div class="background-wrapper -z-10 absolute bg-center"><img class="max-w-none xl:w-full" src="src/assets/img/home-bg.jpg" alt="Background Page" />
+      </div>
+      <div class="py-32 left-0 right-0 z-10 w-full ">
+        <h2 class="pt-[10%] px-10 tablet:px-40 font-extrabold text-4xl tablet:text-6xl max-w-full text-center text-white" >Come and Join us for a
+          Classic Yellowstone Adventure in the open spaces of Montana</h2>
+        <div class="py-14 px-14 text-center">
+          <a href="loging.html"
+            class="rounded-xl py-5 px-5 text-white border-white border-2 hover:bg-white hover:text-black ease-out duration-100">Stay
+            with Us</a>
+        </div>
+      </div>
+    </div>
+    <!-- Section 2 -->
+    <div class="bg-[#edd6c7] z-10 left-0 right-0 w-full h-fit pb-8 mt-12">
+      <div class=" left-0 right-0 w-full h-full">
+        <h2 class=" px-32 py-32 pb-16 font-extrabold text-6xl max-w-full text-center text-white">We need to write here
+          something
+          about the property and what brings people to this location</h2>
+        <h3 class="py-10 font-thin text-4xl max-w-full text-center text-white">Summer 2022 Season: MAY - OCTOBER</h3>
+      </div>
+      <!-- Image Carosoul -->
+      <div class="">
+        <div id="carouselExampleCrossfade" class="carousel slide carousel-fade relative p-12 " data-bs-ride="carousel">
+          <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
+            <button type="button" data-bs-target="#carouselExampleCrossfade" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCrossfade" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCrossfade" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCrossfade" data-bs-slide-to="3"
+              aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleCrossfade" data-bs-slide-to="4"
+              aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleCrossfade" data-bs-slide-to="5"
+              aria-label="Slide 6"></button>
+          </div>
+          <div class="carousel-inner relative overflow-hidden">
+            <div class="carousel-item active float-left w-full">
+              <img src="src/assets/img/Car-1.jpg" class="block w-full object-contain" alt="Wild Landscape" />
+            </div>
+            <div class="carousel-item float-left w-full">
+              <img src="src/assets/img/Car-2.jpg" class="block w-full object-contain" alt="Wild Landscape" />
+            </div>
+            <div class="carousel-item float-left w-full">
+              <img src="src/assets/img/Car-3.jpg" class="block w-full object-contain" alt="Wild Landscape" />
+            </div>
+            <div class="carousel-item float-left w-full">
+              <img src="src/assets/img/Car-4.jpg" class="block w-full object-contain" alt="Wild Landscape" />
+            </div>
+            <div class="carousel-item float-left w-full">
+              <img src="src/assets/img/Car-5.jpg" class="block w-full object-contain" alt="Wild Landscape" />
+            </div>
+            <div class="carousel-item float-left w-full">
+              <img src="src/assets/img/Car-6.jpg" class="block w-full object-contain" alt="Wild Landscape" />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
+            type="button" data-bs-target="#carouselExampleCrossfade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
+            type="button" data-bs-target="#carouselExampleCrossfade" data-bs-slide="next">
+            <span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Section 3 -->
+    <div class="bg-[#edd6c7] z-10 left-0 right-0 w-full h-fit p-8">
+      <!-- First Card -->
+
+      <div class="flex justify-center m-12 ml-44">
+        <div class="flex flex-col tablet:flex-row rounded-lg">
+          <img class=" w-full h-4/5 tablet:h-auto object-cover tablet:rounded-lg"
+            src="src/assets/img/card-horiz.jpg" alt="Wide open spaces and a white barn" />
+          <div class="p-6 px-16 flex flex-col justify-start">
+            <h5 class="text-gray-900 text-6xl font-bold pr-12 mb-2 italic">Nestled on the back porch of Yellowstone</h5>
+            <p class="text-gray-700 text-xl mb-4">
+              The Beaver Point Rnach is a historic ranch that dates bag to the middle of the 20<sup>th</sup> century in
+              southern Montana. At 5000 ft in elevation, the Ranch enjoys the best of Montana's weather with a host of
+              activities for your family and friends to enjoy!
+            </p>
+            <div class="mr-2 py-6 px-5">
+              <a href="#"
+                class="rounded py-3 px-2 text-xl border-[#CB997E] border-2 text-[#CB997E] hover:bg-[#CB997E] hover:text-black ease-out duration-100">Learn
+                More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Second and Third Card -->
+      <div class="flex justify-evenly pt-10">
+        <div class="flex justify-center">
+          <div class="max-w-3xl">
+            <a href="#!">
+              <img class="max-w-3xl rounded-lg" src="src/assets/img/card-2.jpg" alt="An image of the lodge" />
+            </a>
+            <div class="p-6 text-center">
+              <h5 class="text-gray-900 text-6xl font-bold mb-2 pt-8 italic">Adventures</h5>
+              <p class="text-gray-700 text-2xl mb-4  py-8 px-32 leading-relaxed ">
+                From horseback riding and hiking to swimming, archery and shooting we offer a wide range of ammenities
+                for the whole family to enjoy.
+                <br />
+                <br />
+                <a href="#"
+                  class="rounded py-3 px-2 text-2xl text-[#CB997E] underline underline-offset-8 hover:text-black ease-out duration-100">Learn
+                  More</a>
+              </p>
+
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-center">
+          <div class="max-w-3xl">
+            <a href="#!">
+              <img class="max-w-3xl rounded-lg" src="src/assets/img/card-3.jpg"
+                alt="An image of adventures on the ranch" />
+            </a>
+            <div class="p-6 text-center">
+              <h5 class="text-gray-900 text-6xl font-bold mb-2 pt-8 italic">Lodging</h5>
+              <p class="text-gray-700 text-2xl mb-4 py-8 px-32 leading-relaxed">
+                The Beaver Point Ranch offers lodge rooms and nine individual historic cabins for guests, in addition to
+                the Ranch House for Larger families or groups.
+                <br />
+                <br />
+                <a href="#"
+                  class="rounded py-3 px-2 text-2xl font-extrabold text-[#CB997E] underline underline-offset-8 hover:text-black ease-out duration-100">Learn
+                  More</a>
+              </p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="p-20">
+        <div class="absolute left-0 right-0 p-[20%] text-center">
+          <a href="#!">
+            <h1 class="text-6xl font-extrabold text-white underline underline-offset-8 uppercase">Adventure With Us</h1>
+          </a>
+        </div>
+        <div class="h-3/4">
+          <img src="src/assets/img/home-footer-bg.jpg" class="max-w-full h-auto"
+            alt="Come Stay with Us at Beaver Point Ranch" />
+        </div>
+
+      </div>
+  </section>
+
+  <footer class="pb-32 z-10 max-w-full bg-[#6b705c]">
+    <div class="flex justify-between px-10">
+
+      <div class="flex flex-col p-12">
+        <div class="pb-24"><h1 class="text-6xl text-white font-extrabold">Beaver Point Ranch <span class="text-5xl font-normal">LLC.</span></h1></div>
+        <div class="max-w-md"><img src="src/assets/img/circle-logo.png" class="max-w-full h-auto" alt="Beaver Creek Ranch Logo" /></div>
+      </div>
+
+      <div class="flex flex-col justify-evenly">
+          <p class="text-2xl py-5 px-5 text-center">
+            An Address will go here.<br />
+            more addressing
+          </p>
+          <p class="text-2xl py-5 px-5 text-center">
+            (606)-428-0909<br />
+            info@beaverpointranch.com
+          </p>
+          <p class="text-2xl py-5 px-5 text-center">
+            Copyright 2022 Beaver Point Ranch
+          </p>
+        
+      </div>
+
+
+      <div class="flex flex-col justify-evenly">
+        <div class="max-w-sm"><img src="src/assets/img/dude-ranch-tag.jpg" class="max-w-full h-auto" alt="Dude Ranch Associaiton Logo" /></div>
+        <div class="max-w-sm"><img src="src/assets/img/montanadudeasscn.png" class="max-w-full h-auto" alt="Montana Dude Ranchers Associaiton Logo" /></div>
+      </div>
+
+    </div>
+  </footer>
+
+
+  <script src="src/JS/script.js"></script>
+  <script src="./node_modules/tw-elements/dist/js/index.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+    integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+</body>
+
+</html>
