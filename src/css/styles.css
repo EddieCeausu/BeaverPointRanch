@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;800;900&display=swap');
+
+.sanchez {
+    font-family: 'Sanchez', serif;
+}
+
+.playfair {
+    font-family: 'Playfair Display', serif;
+}
+
+#mobile-menu {
+    opacity: 0;
+    transition-property: opacity;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 500ms;
+}
+
+
+ 
