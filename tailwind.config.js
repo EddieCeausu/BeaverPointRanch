@@ -4,6 +4,8 @@ module.exports = {
     "./index.html",
     "./About",
     "./Adventures",
+    "./Lodging",
+    "./Rates",
     './node_modules/tw-elements/dist/js/**/*.js',
     "./JS/script.js"
 ],

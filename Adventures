@@ -97,74 +97,369 @@
                             Adventures
                         </h1>
                     </div>
-                    <!-- 
-                        Horseback Riding
-                            - Horseback riding is what the Circle Bar is known for. Ride in mountain terrain, lope across wide open fields and traverse the Judith River all from the back of your trusty steed. 
-                        Guided Tours
-                            - Explore our 520 acres and the nearby Helena-Lewis and Clark National Forest by way of UTV guided tours. Explore the varied terrain around the ranch and the nearby caves for some spelunking.
-                        Fishing
-                            - The first mile of the Judith River flows through the Circle Bar Ranch. Wide swaths of river are ideal for fly fishing adventures. Montana’s waters await!
-                        Shooting and Archery
-                            - Practice your marksmanship with our safe and fun sport shooting and archery programs. Clay pigeon and target shooting available. 
-                        Axthrowing
-                            - Axe throwing is the premiere outdoor throwing and entertainment, committed to providing you with an exhilarating throwing and connection building experience, leaving you feeling revitalized, happy, and energized! Our knowledgeable and energetic staff is dedicated to providing you with excellent customer service, and will go above and beyond to ensure your visit with us is unlike any other entertainment venue you’ve experienced before! Throw ON!
-                        Cowboy Poetry
-                            - Learn about the art of telling old western stories! Gather around the A fun evening activity that the whole family will enjoy 
-                        Penning
-                            - In Penning, teams of three or more rider combinations use their athleticism, horsemanship, and general “cowiness” to humanely separate particular cows and herd them into the penning area as fast as possible. Time is of the essence in Penning and Sorting, making this challenging sport even more exciting as the clock ticks.
-                        Roping
-                            -  Roping is a western sport in horseback riding where a rider must chase a cow. Our cowboys will show you how to rope the cow with a lasso and highly trained discipline and know how to work with cattle. Roping is a timed event and the fastest roper or team of ropers to get their job done wins. 
-                        Hunting
-                            - If you're interested in sharpening your hunting skills, our guided experiences present the ideal environment for developing them. Led by local experts in the field, our guided hunts can increase your success rate and help you bag that trophy you've been trying for. We have the best guided hunting experiences here in the Western U.S. 
-                        Hiking
-                            - The Circle Bar’s 520 acres border the Helena-Lewis & Clark National Forest, with exceptional nature to explore all around us. See the wildlife and landscape Montana has to offer.
+                    <!--
+ <div class="container mx-auto flex flex-nowrap justify-items-stretch">
+                        <div class="flex flex-col" style="margin-right: 1em;">
+                            <div class="w-3/4">
+                                <img class="rounded-lg object-fill" src="src/assets/img/ad-horseback.jpeg"
+                                    alt="An image of the lodge" />
+                            </div>
+                            <div class="p-6 text-center">
+                                <h5 class="text-gray-900 text-6xl font-bold mb-2 pt-8 italic">Horseback Riding</h5>
+                                <p class="text-gray-700 text-xl mb-4  py-8 leading-relaxed ">
+                                    Horseback riding is what the Circle Bar is known for. Ride in mountain terrain, lope
+                                    across wide open fields and traverse the Judith River all from the back of your
+                                    trusty steed.
+                                    <br />
+                                    <br />
+                                    <a href="#"
+                                        class="rounded py-3 px-2 text-2xl text-[#CB997E] underline underline-offset-8 hover:text-black ease-out duration-100">Learn
+                                        More</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex flex-col" style="margin-right: 1em;">
+                            <div class="w-full">
+                                <img class="rounded-lg object-fill" src="src/assets/img/ad-horseback.jpeg"
+                                    alt="An image of the lodge" />
+                            </div>
+                            <div class="p-6 text-center">
+                                <h5 class="text-gray-900 text-6xl font-bold mb-2 pt-8 italic">Guided Tours</h5>
+                                <p class="text-gray-700 text-xl mb-4  py-8 leading-relaxed ">
+                                    Explore our 520 acres and the nearby Helena-Lewis and Clark National Forest by way
+                                    of UTV guided tours. Explore the varied terrain around the ranch and the nearby
+                                    caves for some spelunking.
+                                    <br />
+                                    <br />
+                                    <a href="#"
+                                        class="rounded py-3 px-2 text-2xl text-[#CB997E] underline underline-offset-8 hover:text-black ease-out duration-100">Learn
+                                        More</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex flex-col" style="margin-right: 1em;">
+                            <div class="max-w-full">
+                                <img class="rounded-lg object-fill" src="src/assets/img/ad-horseback.jpeg"
+                                    alt="An image of the lodge" />
+                            </div>
+                            <div class="p-6 text-center">
+                                <h5 class="text-gray-900 text-6xl font-bold mb-2 pt-8 italic">Fishing</h5>
+                                <p class="text-gray-700 text-xl mb-4  py-8 leading-relaxed ">
+                                    The first mile of the Judith River flows through the Circle Bar Ranch. Wide swaths
+                                    of river are ideal for fly fishing adventures. Montana’s waters await!
+                                    <br />
+                                    <br />
+                                    <a href="#"
+                                        class="rounded py-3 px-2 text-2xl text-[#CB997E] underline underline-offset-8 hover:text-black ease-out duration-100">Learn
+                                        More</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-nowrap  justify-evenly pt-10">
+                        <div class="flex flex-col" style="margin-right: 1em;">
+                            <div class="max-w-full">
+                                <img class="rounded-lg object-fill" src="src/assets/img/ad-horseback.jpeg"
+                                    alt="An image of the lodge" />
+                            </div>
+                            <div class="p-6 text-center">
+                                <h5 class="text-gray-900 text-6xl font-bold mb-2 pt-8 italic">Horseback Riding</h5>
+                                <p class="text-gray-700 text-xl mb-4  py-8 leading-relaxed ">
+                                    Horseback riding is what the Circle Bar is known for. Ride in mountain terrain, lope
+                                    across wide open fields and traverse the Judith River all from the back of your
+                                    trusty steed.
+                                    <br />
+                                    <br />
+                                    <a href="#"
+                                        class="rounded py-3 px-2 text-2xl text-[#CB997E] underline underline-offset-8 hover:text-black ease-out duration-100">Learn
+                                        More</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex flex-col" style="margin-right: 1em;">
+                            <div class="max-w-full">
+                                <img class="rounded-lg object-fill" src="src/assets/img/ad-horseback.jpeg"
+                                    alt="An image of the lodge" />
+                            </div>
+                            <div class="p-6 text-center">
+                                <h5 class="text-gray-900 text-6xl font-bold mb-2 pt-8 italic">Horseback Riding</h5>
+                                <p class="text-gray-700 text-xl mb-4  py-8 leading-relaxed ">
+                                    Horseback riding is what the Circle Bar is known for. Ride in mountain terrain, lope
+                                    across wide open fields and traverse the Judith River all from the back of your
+                                    trusty steed.
+                                    <br />
+                                    <br />
+                                    <a href="#"
+                                        class="rounded py-3 px-2 text-2xl text-[#CB997E] underline underline-offset-8 hover:text-black ease-out duration-100">Learn
+                                        More</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex flex-col" style="margin-right: 1em;">
+                            <div class="max-w-full">
+                                <img class="rounded-lg object-fill" src="src/assets/img/ad-horseback.jpeg"
+                                    alt="An image of the lodge" />
+                            </div>
+                            <div class="p-6 text-center">
+                                <h5 class="text-gray-900 text-6xl font-bold mb-2 pt-8 italic">Horseback Riding</h5>
+                                <p class="text-gray-700 text-xl mb-4  py-8 leading-relaxed ">
+                                    Horseback riding is what the Circle Bar is known for. Ride in mountain terrain, lope
+                                    across wide open fields and traverse the Judith River all from the back of your
+                                    trusty steed.
+                                    <br />
+                                    <br />
+                                    <a href="#"
+                                        class="rounded py-3 px-2 text-2xl text-[#CB997E] underline underline-offset-8 hover:text-black ease-out duration-100">Learn
+                                        More</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-nowrap  justify-evenly pt-10">
+                        <div class="flex flex-col" style="margin-right: 1em;">
+                            <div class="max-w-full">
+                                <img class="rounded-lg object-fill" src="src/assets/img/ad-horseback.jpeg"
+                                    alt="An image of the lodge" />
+                            </div>
+                            <div class="p-6 text-center">
+                                <h5 class="text-gray-900 text-6xl font-bold mb-2 pt-8 italic">Horseback Riding</h5>
+                                <p class="text-gray-700 text-xl mb-4  py-8 leading-relaxed ">
+                                    Horseback riding is what the Circle Bar is known for. Ride in mountain terrain, lope
+                                    across wide open fields and traverse the Judith River all from the back of your
+                                    trusty steed.
+                                    <br />
+                                    <br />
+                                    <a href="#"
+                                        class="rounded py-3 px-2 text-2xl text-[#CB997E] underline underline-offset-8 hover:text-black ease-out duration-100">Learn
+                                        More</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex flex-col" style="margin-right: 1em;">
+                            <div class="max-w-full">
+                                <img class="rounded-lg object-fill" src="src/assets/img/ad-horseback.jpeg"
+                                    alt="An image of the lodge" />
+                            </div>
+                            <div class="p-6 text-center">
+                                <h5 class="text-gray-900 text-6xl font-bold mb-2 pt-8 italic">Horseback Riding</h5>
+                                <p class="text-gray-700 text-xl mb-4  py-8 leading-relaxed ">
+                                    Horseback riding is what the Circle Bar is known for. Ride in mountain terrain, lope
+                                    across wide open fields and traverse the Judith River all from the back of your
+                                    trusty steed.
+                                    <br />
+                                    <br />
+                                    <a href="#"
+                                        class="rounded py-3 px-2 text-2xl text-[#CB997E] underline underline-offset-8 hover:text-black ease-out duration-100">Learn
+                                        More</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex flex-col" style="margin-right: 1em;">
+                            <div class="max-w-full">
+                                <img class="rounded-lg object-fill" src="src/assets/img/ad-horseback.jpeg"
+                                    alt="An image of the lodge" />
+                            </div>
+                            <div class="p-6 text-center">
+                                <h5 class="text-gray-900 text-6xl font-bold mb-2 pt-8 italic">Horseback Riding</h5>
+                                <p class="text-gray-700 text-xl mb-4  py-8 leading-relaxed ">
+                                    Horseback riding is what the Circle Bar is known for. Ride in mountain terrain, lope
+                                    across wide open fields and traverse the Judith River all from the back of your
+                                    trusty steed.
+                                    <br />
+                                    <br />
+                                    <a href="#"
+                                        class="rounded py-3 px-2 text-2xl text-[#CB997E] underline underline-offset-8 hover:text-black ease-out duration-100">Learn
+                                        More</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
                      -->
-                    <div class="flex justify-evenly pt-10">
-                        <div class="flex justify-center">
-                            <div class="max-w-1/3">
-                                <a href="#!">
-                                    <img class="max-w-3xl rounded-lg object-fill" src="src/assets/img/ad-horseback.jpeg"
+                     <!-- Row 1 -->
+                    <div class="container mx-auto flex">
+                        <div class="container" style="margin-right: 1em;"> 
+                            <div class="flex flex-col justify-center">
+                                <div class="max-w-full">
+                                    <img class="rounded-lg object-fill" src="src/assets/img/ad-horseback.jpeg"
                                         alt="An image of the lodge" />
-                                </a>
+                                </div>
                                 <div class="p-6 text-center">
                                     <h5 class="text-gray-900 text-6xl font-bold mb-2 pt-8 italic">Horseback Riding</h5>
-                                    <p class="text-gray-700 text-2xl mb-4  py-8 px-32 leading-relaxed ">
-                                        Horseback riding is what the Circle Bar is known for. Ride in mountain terrain, lope across wide open fields and traverse the Judith River all from the back of your trusty steed.
+                                    <p class="text-gray-700 text-xl mb-4  py-8 leading-relaxed ">
+                                        Horseback riding is what the Circle Bar is known for. Ride in mountain terrain, lope across wide open fields and traverse the Judith River all from the back of your trusty steed. 
                                         <br />
                                         <br />
                                         <a href="#"
                                             class="rounded py-3 px-2 text-2xl text-[#CB997E] underline underline-offset-8 hover:text-black ease-out duration-100">Learn
                                             More</a>
                                     </p>
-
                                 </div>
                             </div>
                         </div>
-                        <div class="flex justify-center">
-                            <div class="max-w-3xl">
-                                <a href="#!">
-                                    <img class="max-w-3xl rounded-lg" src="src/assets/img/card-3.jpg"
-                                        alt="An image of adventures on the ranch" />
-                                </a>
+                        <div class="container" style="margin-right: 1em;"> 
+                            <div class="flex flex-col justify-center">
+                                <div class="max-w-full">
+                                    <img class="rounded-lg object-fill" src="src/assets/img/suu-amr-V13zKW2KZXE-unsplash.jpeg"
+                                        alt="An image of the lodge" />
+                                </div>
                                 <div class="p-6 text-center">
-                                    <h5 class="text-gray-900 text-6xl font-bold mb-2 pt-8 italic">Lodging</h5>
-                                    <p class="text-gray-700 text-2xl mb-4 py-8 px-32 leading-relaxed">
-                                        The Beaver Point Ranch offers lodge rooms and nine individual historic cabins
-                                        for guests, in addition to
-                                        the Ranch House for Larger families or groups.
+                                    <h5 class="text-gray-900 text-6xl font-bold mb-2 pt-8 italic">Guided Tours</h5>
+                                    <p class="text-gray-700 text-xl mb-4  py-8 leading-relaxed ">
+                                        Explore our 520 acres and the nearby Helena-Lewis and Clark National Forest by way of UTV guided tours. Explore the varied terrain around the ranch and the nearby caves for some spelunking.
                                         <br />
                                         <br />
                                         <a href="#"
-                                            class="rounded py-3 px-2 text-2xl font-extrabold text-[#CB997E] underline underline-offset-8 hover:text-black ease-out duration-100">Learn
+                                            class="rounded py-3 px-2 text-2xl text-[#CB997E] underline underline-offset-8 hover:text-black ease-out duration-100">Learn
                                             More</a>
                                     </p>
-
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="flex flex-col justify-center">
+                                <div class="max-w-full">
+                                    <img class="rounded-lg object-fill" src="src/assets/img/ad-fishing.jpeg"
+                                        alt="An image of the lodge" />
+                                </div>
+                                <div class="p-6 text-center">
+                                    <h5 class="text-gray-900 text-6xl font-bold mb-2 pt-8 italic">Hunting and Fishing</h5>
+                                    <p class="text-gray-700 text-xl mb-4  py-8 leading-relaxed ">
+                                        The first mile of the Judith River flows through the Circle Bar Ranch. Wide swaths of river are ideal for fly fishing adventures. If you're interested in sharpening your hunting skills, our guided experiences present the ideal environment for developing them. Led by local experts in the field, our guided hunts can increase your success rate and help you bag that trophy you've been trying for. Montana’s fields and waters await!
+                                        <br />
+                                        <br />
+                                        <a href="#"
+                                            class="rounded py-3 px-2 text-2xl text-[#CB997E] underline underline-offset-8 hover:text-black ease-out duration-100">Learn
+                                            More</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Row 2 -->
+                    <div class="container mx-auto flex">
+                        <div class="container" style="margin-right: 1em;"> 
+                            <div class="flex flex-col justify-center">
+                                <div class="max-w-full">
+                                    <img class="rounded-lg object-fill" src="src/assets/img/ad-arrowing.jpeg"
+                                        alt="An image of the lodge" />
+                                </div>
+                                <div class="p-6 text-center">
+                                    <h5 class="text-gray-900 text-6xl font-bold mb-2 pt-8 italic">Shooting and Archery</h5>
+                                    <p class="text-gray-700 text-xl mb-4  py-8 leading-relaxed ">
+                                        Practice your marksmanship with our safe and fun sport shooting and archery programs. Clay pigeon and target shooting available. 
+                                        <br />
+                                        <br />
+                                        <a href="#"
+                                            class="rounded py-3 px-2 text-2xl text-[#CB997E] underline underline-offset-8 hover:text-black ease-out duration-100">Learn
+                                            More</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container" style="margin-right: 1em;"> 
+                            <div class="flex flex-col justify-center">
+                                <div class="max-w-full">
+                                    <img class="rounded-lg object-fill" src="src/assets/img/ad-axethrowing.jpeg"
+                                        alt="An image of the lodge" />
+                                </div>
+                                <div class="p-6 text-center">
+                                    <h5 class="text-gray-900 text-6xl font-bold mb-2 pt-8 italic">Axthrowing</h5>
+                                    <p class="text-gray-700 text-xl mb-4  py-8 leading-relaxed ">
+                                        Here at Beaver Point we do not take Axe throwing lightly. As the premiere outdoor throwing and entertainment, we are committed to providing you with an exhilarating throwing and connection building experience, leaving you feeling revitalized, happy, and energized! We will go above and beyond to ensure your visit with us is unlike any other entertainment venue you’ve experienced before!
+                                        <br />
+                                        <br />
+                                        <a href="#"
+                                            class="rounded py-3 px-2 text-2xl text-[#CB997E] underline underline-offset-8 hover:text-black ease-out duration-100">Learn
+                                            More</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="flex flex-col justify-center">
+                                <div class="max-w-full">
+                                    <img class="rounded-lg object-fill" src="src/assets/img/ad-campfire.jpeg"
+                                        alt="An image of the lodge" />
+                                </div>
+                                <div class="p-6 text-center">
+                                    <h5 class="text-gray-900 text-6xl font-bold mb-2 pt-8 italic">Cowboy Poetry</h5>
+                                    <p class="text-gray-700 text-xl mb-4  py-8 leading-relaxed ">
+                                        Learn about the art of telling old western stories! Gather around the camfire at night and learn to tell stories with an enthusiastic authentic cowboy experience. A fun evening activity that the whole family will enjoy! 
+                                        <br />
+                                        <br />
+                                        <a href="#"
+                                            class="rounded py-3 px-2 text-2xl text-[#CB997E] underline underline-offset-8 hover:text-black ease-out duration-100">Learn
+                                            More</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Row 3 -->
+                    <div class="container mx-auto flex">
+                        <div class="container" style="margin-right: 1em;"> 
+                            <div class="flex flex-col justify-center">
+                                <div class="max-w-full">
+                                    <img class="rounded-lg object-fill" src="src/assets/img/ad-penning.jpeg"
+                                        alt="An image of the lodge" />
+                                </div>
+                                <div class="p-6 text-center">
+                                    <h5 class="text-gray-900 text-6xl font-bold mb-2 pt-8 italic">Penning</h5>
+                                    <p class="text-gray-700 text-xl mb-4  py-8 leading-relaxed ">
+                                        In Penning, teams of three or more rider combinations use their athleticism, horsemanship, and general “cowiness” to humanely separate particular cows and herd them into the penning area as fast as possible. Time is of the essence in Penning and Sorting, making this challenging sport even more exciting as the clock ticks. 
+                                        <br />
+                                        <br />
+                                        <a href="#"
+                                            class="rounded py-3 px-2 text-2xl text-[#CB997E] underline underline-offset-8 hover:text-black ease-out duration-100">Learn
+                                            More</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container" style="margin-right: 1em;"> 
+                            <div class="flex flex-col justify-center">
+                                <div class="max-w-full">
+                                    <img class="rounded-lg object-fill" src="src/assets/img/ad-roping.jpeg"
+                                        alt="An image of the lodge" />
+                                </div>
+                                <div class="p-6 text-center">
+                                    <h5 class="text-gray-900 text-6xl font-bold mb-2 pt-8 italic">Roping</h5>
+                                    <p class="text-gray-700 text-xl mb-4  py-8 leading-relaxed ">
+                                        Roping is a western sport in horseback riding where a rider must chase a cow. Our cowboys will show you how to rope the cow with a lasso and highly trained discipline and know how to work with cattle. Roping is a timed event and the fastest roper or team of ropers to get their job done wins.
+                                        <br />
+                                        <br />
+                                        <a href="#"
+                                            class="rounded py-3 px-2 text-2xl text-[#CB997E] underline underline-offset-8 hover:text-black ease-out duration-100">Learn
+                                            More</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="flex flex-col justify-center">
+                                <div class="max-w-full">
+                                    <img class="rounded-lg object-fill" src="src/assets/img/ad-hiking-1.jpeg"
+                                        alt="An image of the lodge" />
+                                </div>
+                                <div class="p-6 text-center">
+                                    <h5 class="text-gray-900 text-6xl font-bold mb-2 pt-8 italic">Hiking</h5>
+                                    <p class="text-gray-700 text-xl mb-4  py-8 leading-relaxed ">
+                                        The Circle Bar’s 520 acres border the Helena-Lewis & Clark National Forest, with exceptional nature to explore all around us. See the wildlife and landscape Montana has to offer.
+                                        <br />
+                                        <br />
+                                        <a href="#"
+                                            class="rounded py-3 px-2 text-2xl text-[#CB997E] underline underline-offset-8 hover:text-black ease-out duration-100">Learn
+                                            More</a>
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
     </section>
     <footer class="pb-32 z-10 max-w-full bg-[#6b705c]">
         <div class="flex justify-between px-10">

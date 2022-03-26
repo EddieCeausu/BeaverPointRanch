@@ -1,5 +1,5 @@
-@tailwind base;
 @tailwind components;
+@tailwind base;
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;800;900&display=swap');
 
@@ -9,6 +9,16 @@
 
 .playfair {
     font-family: 'Playfair Display', serif;
+}
+
+table, th, td {
+    border: 1px solid rgb(55, 55, 55);
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+tbody tr td:first-child {
+    font-weight: bold;
 }
 
 #mobile-menu {
