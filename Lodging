@@ -87,7 +87,7 @@
             <div class="container py-12 mx-auto overflow-hidden">
                 <div class="block">
                     <div class="container">
-                        <h1 class="px-8 py-8 text-center font-extrabold" style="font-size: calc(2.4 * 1vw);">
+                        <h1 class="px-8 py-8 text-center font-extrabold sm:text-3xl">
                             Lodging
                         </h1>
                     </div>
@@ -121,7 +121,7 @@
                                 <div class="p-6 text-center">
                                     <h5 class="text-gray-900 text-6xl font-bold mb-2 pt-8 italic">Ranch House</h5>
                                     <p class="text-gray-700 text-xl mb-4  py-8 leading-relaxed ">
-                                        For larger groups or families, our Ranch House is the perfect fit. It has four bedrooms and three bathrooms and comfortably sleeps eight.
+                                        For larger groups or families, our Ranch House is the perfect fit. It has four bedrooms and three and <sup>1/2</sup> bathrooms and comfortably sleeps eight.
                                         <br />
                                         <br />
                                         <a href="#"

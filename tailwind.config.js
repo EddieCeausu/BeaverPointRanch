@@ -6,14 +6,16 @@ module.exports = {
     "./Adventures",
     "./Lodging",
     "./Rates",
+    "./Dining",
+    "./Contact",
     './node_modules/tw-elements/dist/js/**/*.js',
     "./JS/script.js"
 ],
   theme: {
     screens: {
-      'sm': '640px',
+      'sm': '375px',
 
-      'tablet': '872px',
+      'tablet': '980px',
       'lg': '1024px',
       // => @media (min-width: 1024px) { ... }
 

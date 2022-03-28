@@ -42,9 +42,9 @@
             <div class="flex justify-between">
                 <!-- Logo -->
                 <!-- Primary Nav -->
-                <div class="space-x-1">
+                <div class="space-x-1 max-w-sm tablet:w-xs">
                     <a href="#">
-                        <img class="py-5 px-5 object-fill max-w-sm tablet:w-xs"
+                        <img class="py-5 px-5 object-contain"
                             src="src/assets/img/logo-words-hq.png" /></a>
                 </div>
                 <!-- Secondary Nav -->
@@ -87,22 +87,22 @@
         </div>
     </nav>
     <!-- Content -->
-    <section id="content bg-cover bg-[#edd6c7] h-full ">
+    <section id="content bg-cover bg-[#edd6c7]">
         <!-- Section 1 -->
-        <div class="py-32 bg-[#edd6c7]">
+        <div class="py-32 bg-[#edd6c7] msc">
             <div class="container py-12 mx-auto overflow-hidden">
                 <div class="block">
                     <div class="container">
-                        <h1 class="px-8 py-8 text-center font-extrabold playfair" style="font-size: calc(3.4 * 1vw);">
+                        <h1 class="px-8 py-8 text-center font-extrabold playfair tablet:text-6xl sm:text-3xl">
                             2022 Rates
                         </h1>
                     </div>
-                    <div class="block mx-auto text-center text-xl">
+                    <div class="block mx-auto text-center text-2xl">
                         <p>
                             Our Full American Plan includes your lodging, all meals, horseback riding and use of the
                             ranch amenities.
                             <br />
-                            Our 2022 season runs from May 25 to October 2, 2022.
+                            Our 2022 season runs from May 2 to October 2, 2022.
                             <br />
                             We require a minimum stay of 3 nights and arrival can be any day of the week.
                             <br />
@@ -117,34 +117,34 @@
                             <tr>
                                 <th></th>
                                 <th>Less than 7 nights</th>
-                                <th>7 nights or longer</th>
+                                <th>8 nights or longer</th>
                                 <th>Week Stay Price (7 nights)</th>
                             </tr>
-                        </thead>
+                        </thead> 
                         <tbody>
                             <tr>
                                 <td>Single Rate*</td>
-                                <td>$408</td>
-                                <td>$377</td>
-                                <td>$2,639</td>
+                                <td>$375</td>
+                                <td>$350</td>
+                                <td>$2,400</td>
                             </tr>
                             <tr>
-                                <td>Lodge Rooms</td>
-                                <td>$321</td>
-                                <td>$291</td>
-                                <td>$2,037</td>
+                                <td>Historic Cabins</td>
+                                <td>$340</td>
+                                <td>$300</td>
+                                <td>$2,000</td>
                             </tr>
                             <tr>
-                                <td>Cabins</td>
-                                <td>$388</td>
-                                <td>$357</td>
-                                <td>$2,499</td>
+                                <td>Log Cabins</td>
+                                <td>$375</td>
+                                <td>$350</td>
+                                <td>$2,400</td>
                             </tr>
                             <tr>
                                 <td>Ranch House</td>
-                                <td>$459</td>
-                                <td>$428</td>
-                                <td>$2,996</td>
+                                <td>$425</td>
+                                <td>$400</td>
+                                <td>$2,800</td>
                             </tr>
                             <tr>
                                 <td></td>
@@ -154,9 +154,9 @@
                             </tr>
                             <tr>
                                 <td>Additional Persons <br>(after 2 guests)</td>
-                                <td>$306</td>
-                                <td>$275</td>
-                                <td>$1,925</td>
+                                <td>$325</td>
+                                <td>$300</td>
+                                <td>$2,000</td>
                             </tr>
                         </tbody>
                     </table>
@@ -164,13 +164,13 @@
                 <div class="container p-4 text-xl">
                     <div class="block text-center italic">
                         <p class="py-2">**Children 4 years and younger stay free.</p>
-                        <p class="py-2">*single rate only offered in Lodge rooms and the Homesteader Cabin.</p>
+                        <p class="py-2">*Single rate only offered in Historic Cabins.</p>
                     </div>
                     <div class="p-4 text-2xl">
-                        <p  class="py-2">The above rates are subject to a 15% ranch service fee and a 2% Montana accommodations tax.</p>
+                        <p  class="py-2">The above rates are subject to a 10% ranch service fee and a 2% Montana accommodations tax.</p>
                         <p class="py-2"><span class="font-bold">Minimum Stay:</span> We require a minimum stay of 3 nights and arrival can be any day of the week.</p>
-                        <p class="py-2"><span class="font-bold">Deposit:</span> We require a $250 per person deposit to confirm your stay, which is refundable up to
-                            90 days prior to arrival in the event of cancellation. The balance of your stay will be
+                        <p class="py-2"><span class="font-bold">Deposit:</span> We require a $150 per person deposit to confirm your stay, which is refundable up to
+                        60 days prior to arrival in the event of cancellation. The balance of your stay will be
                             processed upon check in. Please have your payment method ready when you arrive at the ranch.
                             Any incidentals added during your stay will be processed at check out.</p>
 
@@ -181,7 +181,7 @@
     <footer class="pb-32 z-10 max-w-full bg-[#6b705c]">
         <div class="flex justify-between px-10">
             <div class="flex flex-col p-12">
-                <div class="pb-24">
+                <div class="pb-24 playfair">
                     <h1 class="text-6xl text-white font-extrabold">Beaver Point Ranch <span
                             class="text-5xl font-normal">LLC.</span></h1>
                 </div>
