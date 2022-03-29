@@ -37,7 +37,7 @@
         </div>
     </div>
     <!-- Nav -->
-    <nav class="w-full bg-[#f6f5ea] z-20 fixed">
+    <nav class="w-full bg-[#f6f5ea] z-20">
         <div class="max-w-auto p-5 mx-auto">
             <div class="flex justify-between">
                 <!-- Logo -->
