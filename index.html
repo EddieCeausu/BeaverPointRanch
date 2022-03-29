@@ -7,10 +7,11 @@
   <link href="src/build/tailwind.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;800;900&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;800;900&display=swap" rel="stylesheet">
+  <title>Beaver Point Ranch</title>
 </head>
 
-<body class="">
+<body class="sanchez">
   <!-- Mobile Navigaiton -->
   <div id="mobile-menu" class="hidden absolute bg-[#edd6c7] w-full h-full z-30">
     <button id="mobile-menu-button-close" class="float-right p-6 pt-8">
@@ -41,9 +42,9 @@
         <div class="flex justify-between">
             <!-- Logo -->
             <!-- Primary Nav -->
-            <div class="space-x-1">
-                <a href="#">
-                    <img class="py-5 px-5 object-fill max-w-sm tablet:w-xs"
+            <div class="space-x-2 max-w-sm tablet:w-xs mr-12">
+                <a href="index.html">
+                    <img class="py-5 px-5 object-cover"
                         src="src/assets/img/logo-words-hq.png" /></a>
             </div>
             <!-- Secondary Nav -->
@@ -88,13 +89,14 @@
 
 
   <!-- Content -->
-  <section id="content">
+  <section id="content" class="overflow-hidden">
     <!-- Section 1 -->
-    <div class="bg-cover h-full">
-      <div class="background-wrapper -z-10 absolute bg-center"><img class="max-w-none xl:w-full" src="src/assets/img/home-bg.jpg" alt="Background Page" />
+    <div id="bg-homepage" class="relative h-full overflow-hidden">
+      <div class="background-wrapper -z-10 absolute bg-">
+        <img class="max-w-none xl:w-full" src="src/assets/img/home-bg.jpg" alt="Background Page" />
       </div>
-      <div class="py-32 left-0 right-0 z-10 w-full ">
-        <h2 class="pt-[10%] px-10 tablet:px-40 font-extrabold text-4xl tablet:text-6xl max-w-full text-center text-white" >Come and Join us for a
+      <div class="py-32 left-0 right-0 z-10 w-full playfair">
+        <h2 class="pt-[10%] px-10 tablet:px-40 font-extrabold text-3xl tablet:text-6xl max-w-full text-center text-white" >Come and Join us for a
           Classic Yellowstone Adventure in the open spaces of Montana</h2>
         <div class="py-14 px-14 text-center">
           <a href="loging.html"
@@ -104,11 +106,9 @@
       </div>
     </div>
     <!-- Section 2 -->
-    <div class="bg-[#edd6c7] z-10 left-0 right-0 w-full h-fit pb-8 mt-12">
+    <div class="bg-[#edd6c7] z-10 left-0 right-0 w-full h-fit pb-8 playfair">
       <div class=" left-0 right-0 w-full h-full">
-        <h2 class=" px-32 py-32 pb-16 font-extrabold text-6xl max-w-full text-center text-white">We need to write here
-          something
-          about the property and what brings people to this location</h2>
+        <h2 class="px-[10%] py-32 pb-16 font-extrabold text-4xl tablet:text-6xl max-w-full text-center text-white">Explore the backyard of Yellowstone in the Montana Mountains. Get away from the world. Disconnect from the world to reconnect with rugged mountains and rustic cabins. </h2>
         <h3 class="py-10 font-thin text-4xl max-w-full text-center text-white">Summer 2022 Season: MAY - OCTOBER</h3>
       </div>
       <!-- Image Carosoul -->
@@ -164,40 +164,61 @@
       </div>
     </div>
     <!-- Section 3 -->
-    <div class="bg-[#edd6c7] z-10 left-0 right-0 w-full h-fit p-8">
+    <div class="bg-[#edd6c7] z-10 left-0 right-0 w-full h-fit p-4">
       <!-- First Card -->
 
-      <div class="flex justify-center m-12 ml-44">
+      <div class="flex justify-center m-12 tablet:ml-44">
         <div class="flex flex-col tablet:flex-row rounded-lg">
           <img class=" w-full h-4/5 tablet:h-auto object-cover tablet:rounded-lg"
             src="src/assets/img/card-horiz.jpg" alt="Wide open spaces and a white barn" />
-          <div class="p-6 px-16 flex flex-col justify-start">
-            <h5 class="text-gray-900 text-6xl font-bold pr-12 mb-2 italic">Nestled on the back porch of Yellowstone</h5>
-            <p class="text-gray-700 text-xl mb-4">
-              The Beaver Point Rnach is a historic ranch that dates bag to the middle of the 20<sup>th</sup> century in
+          <div class="p-6 px-16 flex flex-col justify-start sm:text-center tablet:text-left sm:mx-auto tablet:mx-0">
+            <h5 class="text-gray-900 text-6xl font-bold tablet:pr-12 mb-2 playfair">Nestled on the back porch of Yellowstone</h5>
+            <p class="text-gray-700 text-xl mb-4 sm:text-justify tablet:text-left">
+              The Beaver Point Ranch is a historic ranch that dates bag to the middle of the 20<sup>th</sup> century in
               southern Montana. At 5000 ft in elevation, the Ranch enjoys the best of Montana's weather with a host of
               activities for your family and friends to enjoy!
             </p>
-            <div class="mr-2 py-6 px-5">
+            <div class="mr-2 py-6 px-5 sm:mx-auto tablet:mx-0">
               <a href="#"
-                class="rounded py-3 px-2 text-xl border-[#CB997E] border-2 text-[#CB997E] hover:bg-[#CB997E] hover:text-black ease-out duration-100">Learn
+                class="rounded-lg py-3 px-2 text-xl border-[#CB997E] border-2 text-[#CB997E] hover:bg-[#CB997E] hover:text-black ease-out duration-100 ">Learn
                 More</a>
             </div>
           </div>
         </div>
       </div>
       <!-- Second and Third Card -->
-      <div class="flex justify-evenly pt-10">
-        <div class="flex justify-center">
+      <div class="container flex flex-wrap tablet:justify-between sm:justify-center p-8 mx-auto">
+        <div class="flex justify-center mx-auto">
           <div class="max-w-3xl">
             <a href="#!">
-              <img class="max-w-3xl rounded-lg" src="src/assets/img/card-2.jpg" alt="An image of the lodge" />
+              <img class="max-w-3xl rounded-lg w-auto h-auto" src="src/assets/img/card-2.jpg" alt="An image of the lodge" />
             </a>
             <div class="p-6 text-center">
-              <h5 class="text-gray-900 text-6xl font-bold mb-2 pt-8 italic">Adventures</h5>
-              <p class="text-gray-700 text-2xl mb-4  py-8 px-32 leading-relaxed ">
+              <h5 class="text-gray-900 text-6xl font-bold mb-2 pt-8 playfair">Adventures</h5>
+              <p class="text-gray-700 sm:text-xl tablet:text-2xl mb-4 py-8 sm:px-52 tablet:px-32 leading-relaxed">
                 From horseback riding and hiking to swimming, archery and shooting we offer a wide range of ammenities
                 for the whole family to enjoy.
+                <br />
+                <br />
+                <a href="#"
+                  class="rounded py-3 px-2 sm:text-xl tablet:text-2xl text-[#CB997E] underline underline-offset-8 hover:text-black ease-out duration-100">Learn
+                  More</a>
+              </p>
+
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-center mx-auto">
+          <div class="max-w-3xl">
+            <a href="#!">
+              <img class="max-w-3xl rounded-lg w-auto h-auto" src="src/assets/img/card-3.jpg"
+                alt="An image of adventures on the ranch" />
+            </a>
+            <div class="p-6 text-center">
+              <h5 class="text-gray-900 text-6xl font-bold mb-2 pt-8 playfair">Lodging</h5>
+              <p class="text-gray-700 sm:text-xl tablet:text-2xl mb-4 py-8 sm:px-52 tablet:px-32 leading-relaxed">
+                The Beaver Point Ranch offers lodge rooms and nine individual historic cabins for guests, in addition to
+                the Ranch House for larger families or groups.
                 <br />
                 <br />
                 <a href="#"
@@ -208,69 +229,48 @@
             </div>
           </div>
         </div>
-        <div class="flex justify-center">
-          <div class="max-w-3xl">
-            <a href="#!">
-              <img class="max-w-3xl rounded-lg" src="src/assets/img/card-3.jpg"
-                alt="An image of adventures on the ranch" />
-            </a>
-            <div class="p-6 text-center">
-              <h5 class="text-gray-900 text-6xl font-bold mb-2 pt-8 italic">Lodging</h5>
-              <p class="text-gray-700 text-2xl mb-4 py-8 px-32 leading-relaxed">
-                The Beaver Point Ranch offers lodge rooms and nine individual historic cabins for guests, in addition to
-                the Ranch House for Larger families or groups.
-                <br />
-                <br />
-                <a href="#"
-                  class="rounded py-3 px-2 text-2xl font-extrabold text-[#CB997E] underline underline-offset-8 hover:text-black ease-out duration-100">Learn
-                  More</a>
-              </p>
-
-            </div>
-          </div>
-        </div>
       </div>
-      <div class="p-20">
-        <div class="absolute left-0 right-0 p-[20%] text-center">
-          <a href="#!">
-            <h1 class="text-6xl font-extrabold text-white underline underline-offset-8 uppercase">Adventure With Us</h1>
-          </a>
-        </div>
-        <div class="h-3/4">
-          <img src="src/assets/img/home-footer-bg.jpg" class="max-w-full h-auto"
+      <!-- Final Section -->
+      <div class="tablet:p-20 sm:p-4 text-center">
+        <div class="relative">
+          <img src="src/assets/img/home-footer-bg.jpg" class="z-0 w-full mx-auto inset-0 object-cover"
             alt="Come Stay with Us at Beaver Point Ranch" />
+            <div class="absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] z-10">
+              <a href="#!">
+                <h1 class="sm:text-2xl tablet:text-6xl font-extrabold text-white underline underline-offset-8 uppercase playfair">Adventure With Us</h1>
+              </a>
+            </div>
         </div>
-
       </div>
   </section>
 
   <footer class="pb-32 z-10 max-w-full bg-[#6b705c]">
-    <div class="flex justify-between px-10">
+    <div class="flex align-items-center justify-center px-10 sm:flex-wrap tablet:flex-nowrap mx-auto">
 
-      <div class="flex flex-col p-12">
-        <div class="pb-24"><h1 class="text-6xl text-white font-extrabold">Beaver Point Ranch <span class="text-5xl font-normal">LLC.</span></h1></div>
+      <div class="flex flex-col p-12 playfair">
+        <div class="pb-24"><h1 class="sm:text-center sm:text-5xl tablet:text-6xl text-white font-extrabold">Beaver Point Ranch <span class="text-5xl font-normal">LLC.</span></h1></div>
         <div class="max-w-md"><img src="src/assets/img/circle-logo.png" class="max-w-full h-auto" alt="Beaver Creek Ranch Logo" /></div>
       </div>
 
       <div class="flex flex-col justify-evenly">
           <p class="text-2xl py-5 px-5 text-center">
-            An Address will go here.<br />
-            more addressing
+            123456 Lorem ipsum dolor<br />
+            consectetur adipiscing elit. 
           </p>
           <p class="text-2xl py-5 px-5 text-center">
             (606)-428-0909<br />
             info@beaverpointranch.com
           </p>
           <p class="text-2xl py-5 px-5 text-center">
-            Copyright 2022 Beaver Point Ranch
+            &copy; 2022 Beaver Point Ranch
           </p>
         
       </div>
 
 
       <div class="flex flex-col justify-evenly">
-        <div class="max-w-sm"><img src="src/assets/img/dude-ranch-tag.jpg" class="max-w-full h-auto" alt="Dude Ranch Associaiton Logo" /></div>
-        <div class="max-w-sm"><img src="src/assets/img/montanadudeasscn.png" class="max-w-full h-auto" alt="Montana Dude Ranchers Associaiton Logo" /></div>
+        <div class="max-w-sm"><img src="src/assets/img/dude-ranch-tag.jpg" class="max-w-full h-auto mx-auto" alt="Dude Ranch Associaiton Logo" /></div>
+        <div class="max-w-sm"><img src="src/assets/img/montanadudeasscn.png" class="max-w-full h-auto mx-auto" alt="Montana Dude Ranchers Associaiton Logo" /></div>
       </div>
 
     </div>
