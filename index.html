@@ -20,11 +20,20 @@
             <path stroke-linecap="square" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
         </svg>
     </button>
-    <div class="text-center py-32">
-        <a href="About" class="block p-11 text-5xl hover:text-slate-100 ease-out duration-300">About</a>
-        <a href="Stay" class="block p-11 text-5xl hover:text-slate-100 ease-out duration-300">Stay</a>
-        <a href="Adventures" class="block p-11 text-5xl hover:text-slate-100 ease-out duration-300">Adventures</a>
-        <a href="Contact" class="block p-11 text-5xl hover:text-slate-100 ease-out duration-300">Contact</a>
+    <div class="text-center py-32 playfair">
+        <a href="About.htm" class="block p-11 text-5xl hover:text-slate-100 ease-out duration-300">About</a>
+
+        <!-- This would normally be a button that would lead to a dropdown -->
+        <a href="Lodging.htm" class="dropdown mx-auto block p-11 text-5xl hover:text-slate-100 ease-out duration-300">Stay</a>
+
+        <div class="hidden flex flex-col justify-center">
+          <a class="block p-11 text-5xl hover:text-slate-100 ease-out duration-300" href="Lodging.htm">Lodging</a>
+          <a class="block p-11 text-5xl hover:text-slate-100 ease-out duration-300" href="Rates.htm">Rates</a>
+          <a class="block p-11 text-5xl hover:text-slate-100 ease-out duration-300" href="Dining.htm">Dining</a>
+        </div>
+
+        <a href="Adventures.htm" class="block p-11 text-5xl hover:text-slate-100 ease-out duration-300">Adventures</a>
+        <a href="Contact.htm" class="block p-11 text-5xl hover:text-slate-100 ease-out duration-300">Contact</a>
         <!-- Socials -->
         <div class="flex justify-center">
             <a href="https://www.instagram.com/beaverpointranch_/">
@@ -49,14 +58,14 @@
             </div>
             <!-- Secondary Nav -->
             <div class="hidden tablet:flex justify-evenly space-x-2">
-                <div class="py-5 px-5"><a href="About"
+                <div class="py-5 px-5"><a href="About.htm"
                         class="text-2xl hover:text-slate-100 ease-out duration-200">About</a></div>
-                <div class="py-5 px-5"><a href="Stay"
+                <div class="py-5 px-5"><a href="Lodging.htm"
                         class="text-2xl hover:text-slate-100 ease-out duration-200">Stay</a></div>
-                <div class="py-5 px-5"><a href="Adventures"
+                <div class="py-5 px-5"><a href="Adventures.htm"
                         class="text-2xl hover:text-slate-100 ease-out duration-200t">Adventures</a>
                 </div>
-                <div class="py-5 px-5"><a href="Contact"
+                <div class="py-5 px-5"><a href="Contact.htm"
                         class="text-2xl hover:text-slate-100 ease-out duration-200">Contact</a>
                 </div>
                 <div class="py-5 px-5">

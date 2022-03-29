@@ -13,7 +13,7 @@
 
 <body class="sanchez">
     <!-- Mobile Navigaiton -->
-    <div id="mobile-menu" class="hidden absolute bg-[#edd6c7] w-full h-full z-30">
+    <div id="mobile-menu" class="hidden absolute bg-[#f6f5ea] w-full h-full z-30">
         <button id="mobile-menu-button-close" class="float-right p-6 pt-8">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" fill="none" viewBox="0 0 24 24"
                 stroke="currentColor" stroke-width="1">
@@ -37,7 +37,7 @@
         </div>
     </div>
     <!-- Nav -->
-    <nav class="w-full bg-[#edd6c7] z-20 fixed">
+    <nav class="w-full bg-[#f6f5ea] z-20 fixed">
         <div class="max-w-auto p-5 mx-auto">
             <div class="flex justify-between">
                 <!-- Logo -->
@@ -87,10 +87,10 @@
         </div>
     </nav>
     <!-- Content -->
-    <section id="contentbg-cover bg-[#edd6c7] h-full ">
+    <section id="contentbg-cover bg-[#f6f5ea] h-full ">
         <!-- Section 1 -->
         <div class="py-32">
-            <div class="py-32 bg-[#edd6c7]">
+            <div class="py-32 bg-[#f6f5ea]">
                 <div class="container py-12 mx-auto overflow-hidden">
                     <div class="block">
                         <div class="container">

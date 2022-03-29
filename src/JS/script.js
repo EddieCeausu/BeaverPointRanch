@@ -19,3 +19,8 @@
      mobileMenu.classList.toggle("hidden");
  });
 
+
+ const btndrop = document.querySelector("button.dropdown");
+
+ 
+
