@@ -2,12 +2,12 @@ module.exports = {
   content: [
     "./css/styles.css",
     "./index.html",
-    "./About",
-    "./Adventures",
-    "./Lodging",
-    "./Rates",
-    "./Dining",
-    "./Contact",
+    "./About.htm",
+    "./Adventures.htm",
+    "./Lodging.htm",
+    "./Rates.htm",
+    "./Dining.htm",
+    "./Contact.htm",
     './node_modules/tw-elements/dist/js/**/*.js',
     "./JS/script.js"
 ],
